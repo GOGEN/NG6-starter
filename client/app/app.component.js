@@ -1,8 +1,9 @@
-import template from './app.html';
-import './app.styl';
+'use strict';
+
+import template from './app.template.html';
 
 let appComponent = {
-  template,
+  template: template,
   restrict: 'E'
 };
 
